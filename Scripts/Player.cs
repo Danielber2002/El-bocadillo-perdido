@@ -16,18 +16,24 @@ public class Player : MonoBehaviour
     {
 
         Movimiento();
+        LimitarPosicion();
 
     }
 
     void Movimiento()
     {
-        // El jugador se mueve con teclas de A y D.
         direccion = Input.GetAxis("Horizontal");
         transform.position += Vector3.right * direccion * speed * Time.deltaTime;
 
-        // El jugador se mueve con teclas de W y S.
         direccion = Input.GetAxis("Vertical");
         transform.position += Vector3.up * direccion * speed * Time.deltaTime;
 
+    }
+    public void LimitarPosicion()
+    {
+        Vector3 posicionLimitada = transform.position;
+        posicionLimitada.x = Mathf.Clamp(transform.position.x, -10, 10);
+        posicionLimitada.y = Mathf.Clamp(transform.position.y, -9, -4);
+        transform.position = posicionLimitada;
     }
 }
