@@ -675,6 +675,7 @@ GameObject:
   - component: {fileID: 889941234}
   - component: {fileID: 889941233}
   - component: {fileID: 889941238}
+  - component: {fileID: 889941239}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -764,7 +765,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 4.57, y: 12.52}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -816,9 +817,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0.73154783, b: 1, a: 1}
-  m_FlipX: 0
+  m_Sprite: {fileID: -1597188336547182666, guid: bcc487fc4be11ec49ab3a8f0a57ce8c0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
@@ -836,8 +837,8 @@ Transform:
   m_GameObject: {fileID: 889941232}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -10.73, z: 0}
-  m_LocalScale: {x: 1.8191, y: 1.8191, z: 1.8191}
+  m_LocalPosition: {x: 1.06, y: -8, z: 0}
+  m_LocalScale: {x: 0.7257481, y: 0.7257481, z: 0.7257481}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1839714096}
@@ -856,6 +857,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anchor: {fileID: 1839714096}
+--- !u!95 &889941239
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 889941232}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 927f0af833f1964429deabe04bf6115b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1083778894
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,7 +3,7 @@ using UnityEngine;
 public class Jump : MonoBehaviour
 {
     public Rigidbody2D rb;
-
+    public float jumpTime;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -15,13 +15,26 @@ public class Jump : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            rb.AddForce(Vector3.up*10);
+            rb.bodyType = RigidbodyType2D.Dynamic;
+            rb.AddForce(Vector3.up*5, ForceMode2D.Impulse);
+            jumpTime = 1.0f;
         }
 
-        if (Input.GetKeyUp(KeyCode.Space))
+        if (jumpTime>0)
         {
-            rb.AddForce(Vector3.down*5);
+            jumpTime -= Time.deltaTime;
         }
+        else
+        {
+            if(rb.bodyType != RigidbodyType2D.Kinematic)
+            {
+                rb.linearVelocity = Vector3.zero;
+            }
+            rb.bodyType = RigidbodyType2D.Kinematic;
+        }
+
+
 
     }
+
 }
