@@ -1,10 +1,7 @@
-using System.Collections;
-using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
-public class Lore : MonoBehaviour
+public class Credits : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -20,6 +17,6 @@ public class Lore : MonoBehaviour
 
     public void CambiarEscena()
     {
-        SceneManager.LoadScene("Creditos");
+        SceneManager.LoadScene("Credits");
     }
 }
