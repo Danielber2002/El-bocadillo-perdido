@@ -32,4 +32,5 @@ public class FollowCamera : MonoBehaviour
             transform.position = m_cameraPosition;
         }    
     }
+   
 }

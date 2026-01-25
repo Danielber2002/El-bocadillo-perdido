@@ -17,7 +17,7 @@ public class Spawn : MonoBehaviour
     {
         if (currentTime >= spawnTime)
         {
-            int randomEnemy = Random.Range(0, 2);
+            int randomEnemy = Random.Range(0, enemies.Length);
             Instantiate(enemies[randomEnemy], transform.position, transform.rotation);
             currentTime = 0;
         }
@@ -25,5 +25,12 @@ public class Spawn : MonoBehaviour
         {
             currentTime += Time.deltaTime;
         }
+
+        Invoke("WaitForSeconds", 15);
+    }
+
+    void WaitForSeconds()
+    {
+       Destroy(gameObject);
     }
 }

@@ -765,7 +765,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 4.57, y: 12.52}
-    newSize: {x: 1, y: 1}
+    newSize: {x: 4.57, y: 12.52}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -816,15 +816,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -1597188336547182666, guid: bcc487fc4be11ec49ab3a8f0a57ce8c0, type: 3}
+  m_Sprite: {fileID: -855298285791758126, guid: 74dc4741f40b0de42902de58a3f70ff9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 4.57, y: 12.52}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &889941237
@@ -1655,7 +1655,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
-  target: {fileID: 889941232}
+  target: {fileID: 0}
   offset: {x: 0, y: 0, z: 1}
   m_leftUpLimit: {fileID: 328454163}
   m_rightBottomLimit: {fileID: 1937752076}
