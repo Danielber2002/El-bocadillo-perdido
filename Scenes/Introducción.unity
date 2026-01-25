@@ -369,7 +369,7 @@ RectTransform:
   m_GameObject: {fileID: 159425069}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3359342, y: 1.3359342, z: 1.3359342}
+  m_LocalScale: {x: 1.3713363, y: 1.3713363, z: 1.3713363}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 600166154}
@@ -392,7 +392,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.36862746}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.40392157}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -454,7 +454,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 703, y: -368}
+  m_AnchoredPosition: {x: 703, y: -413}
   m_SizeDelta: {x: 869, y: 444}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &330917804
@@ -799,13 +799,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "NOTA PARA MAM\xC1:\n\nBueno mam\xE1, voy ser los m\xE1s directo posible.
-    \nEstoy harto de todo: del Wi-Fi lento, de los impuestos y de la cara de mi jefe.
-    \nAs\xED que confiscado una m\xE1quina del tiempo y me largo de aqu\xED.\r\n\r\nMe
-    voy a la Prehistoria. Sin leyes, sin facturas y sin dramas existenciales. Solo
-    yo, mis pu\xF1os y un mont\xF3n de reptiles gigantes. No busco paz, busco algo
-    a lo que poder arrearle un pu\xF1etazo sin que me llegue una demanda judicial.
-    \n\xA1Que empiece la extinci\xF3n!"
+  m_text: "NOTA PARA MAM\xC1:\n\r\nBueno mam\xE1, voy a ser lo m\xE1s directo posible.
+    Estoy harto de que me atraquen cada vez que voy a la gasolinera. As\xED que he
+    robado una m\xE1quina del tiempo y me voy a la Prehistoria.\r\n\r\nSi el mundo
+    dice que estos bichos son el combustible del futuro, no voy a esperar millones
+    de a\xF1os a que se mueran por causas naturales. Pienso convertirlos en gasolina
+    yo mismo, a base de pu\xF1etazos, y llenar el dep\xF3sito a mano.\r\n\r\xA1Que
+    empiece la extracci\xF3n a mano abierta!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2a77439d97780344f8bc02d6ed37eb0a, type: 2}
   m_sharedMaterial: {fileID: -5120715452806516415, guid: 2a77439d97780344f8bc02d6ed37eb0a, type: 2}
@@ -923,7 +923,7 @@ RectTransform:
   m_GameObject: {fileID: 556239737}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.61360073, y: 0.5914223, z: 0.5914223}
+  m_LocalScale: {x: 0.61360073, y: 0.6283862, z: 0.5914223}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 600166154}
@@ -1077,7 +1077,7 @@ RectTransform:
   m_GameObject: {fileID: 778620224}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.98238325, y: 0.98238325, z: 0.98238325}
+  m_LocalScale: {x: 1.0171597, y: 1.0425887, z: 1.0171597}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 600166154}
@@ -1100,7 +1100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6226415, g: 0.59620863, b: 0.59620863, a: 0.7921569}
+  m_Color: {r: 0.6226415, g: 0.59620863, b: 0.59620863, a: 0.5803922}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
