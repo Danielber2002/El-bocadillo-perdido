@@ -39,4 +39,14 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("Prehistoria 2");
     }
+
+    public void MenuPrincipal()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+
+    public void Retry()
+    {
+        SceneManager.LoadScene("Prehistoria 1");
+    }
 }

@@ -64,6 +64,10 @@ PrefabInstance:
       propertyPath: nombreEnemigo
       value: Carnotaurus
       objectReference: {fileID: 0}
+    - target: {fileID: 5496543993489353687, guid: 283a9dcbcd7699c41b7ad28ae1c900c2, type: 3}
+      propertyPath: distanciaVision
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 5611707832830713280, guid: 283a9dcbcd7699c41b7ad28ae1c900c2, type: 3}
       propertyPath: m_Name
       value: Carnotaurus Variant

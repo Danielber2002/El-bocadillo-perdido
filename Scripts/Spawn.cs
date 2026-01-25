@@ -15,22 +15,24 @@ public class Spawn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (currentTime >= spawnTime)
-        {
-            int randomEnemy = Random.Range(0, enemies.Length);
-            Instantiate(enemies[randomEnemy], transform.position, transform.rotation);
-            currentTime = 0;
-        }
-        else
-        {
-            currentTime += Time.deltaTime;
-        }
-
-        Invoke("WaitForSeconds", 15);
+        currentTime += Time.deltaTime;
     }
 
-    void WaitForSeconds()
+    void OnTriggerEnter2D(Collider2D other)
     {
-       Destroy(gameObject);
+        if (other.gameObject.CompareTag("Player"))
+        {
+         
+            if (currentTime >= spawnTime)
+            {
+                int randomEnemy = Random.Range(0, enemies.Length);
+                Instantiate(enemies[randomEnemy], transform.position, transform.rotation);
+
+                currentTime = 0; 
+              
+                GetComponent<Collider2D>().enabled = false;
+            }
+        }
     }
+
 }
